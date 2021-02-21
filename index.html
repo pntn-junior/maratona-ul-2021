@@ -40,8 +40,17 @@
                 <div class="row justify-content-center">
                     <div class="col-md-12 col-md-12 text-center" style="margin: 0px;max-width: 700px;">
                         <p style="font-family: Verdana, Geneva, sans-serif; font-style: initial; font-size: 16px; font-weight: 300; color: rgb(249, 243, 243); padding: 0px; background-color: rgba(255, 255, 255, 0);"><span style="font-weight: 500; color: rgb(231, 169, 14);"><b>09 A 11 DE MARÇO, ÀS 19:30H</b></span><br>100% online, 100% gratuita</p>
-                        <input type="email" class="form-control center-block" placeholder="Digite seu melhor e-mail" style="width: 100%; padding: 30px 20px 30px 18px; font-size: 24px; text-align: left; border-radius: 4px; border-width: 3px; margin: 1px; font-weight: 300; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.5) 5px 0px 10px 0px; text-shadow: none; color: rgb(159, 161, 163); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;">
-                        <a class="btn" style="width: 100%; background-color: rgb(241, 150, 36); box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 0px; text-shadow: none; border-width: 1px; font-family: Verdana, Geneva, sans-serif; font-weight: 700; font-size: 23px; padding: 18px 20px; margin: 5px 1px 1px; color: rgb(247, 248, 249);">QUERO RESERVAR MINHA VAGA AGORA</a>
+                        <form action="https://www.rdstation.com.br/api/1.2/conversions" method="POST">
+                            <input type="hidden" name="token_rdstation" value="7f5913ee486355469c69e45db4d1c6d9" />                        
+                            <input type="email" name="email" class="form-control center-block" placeholder="Digite seu melhor e-mail" style="width: 100%; padding: 30px 20px 30px 18px; font-size: 24px; text-align: left; border-radius: 4px; border-width: 3px; margin: 1px; font-weight: 300; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.5) 5px 0px 10px 0px; text-shadow: none; color: rgb(159, 161, 163); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;">
+                            <input type="hidden" name="identificador" value="teste-html-puro" />
+                            <input type="hidden" name="redirect_to" value="https://lp.ultrapassandolimites.com.br/obrigado-maratona-ul" />
+                            <input type="hidden" name="c_utmz" id="c_utmz" value="" />
+                            <a class="btn" style="width: 100%; background-color: rgb(241, 150, 36); box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 0px; text-shadow: none; border-width: 1px; font-family: Verdana, Geneva, sans-serif; font-weight: 700; font-size: 23px; padding: 18px 20px; margin: 5px 1px 1px; color: rgb(247, 248, 249);">QUERO RESERVAR MINHA VAGA AGORA</a>
+                            <script type="text/javascript">
+                                function read_cookie(a){var b=a+"=";var c=document.cookie.split(";");for(var d=0;d<c.length;d++){var e=c[d];while(e.charAt(0)==" ")e=e.substring(1,e.length);if(e.indexOf(b)==0){return e.substring(b.length,e.length)}}return null}try{document.getElementById("c_utmz").value=read_cookie("__utmz")}catch(err){}
+                            </script>
+                        </form>    
                     </div>
                 </div>
             </div>
