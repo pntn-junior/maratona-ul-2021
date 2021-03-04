@@ -14,7 +14,7 @@ function a2forms() {
     for(var i=0;i<formsCollection.length;i++) {
         formulario = formsCollection[i];   
         for (var j = 0; j < formulario.elements.length; j++) {
-            if (formulario.elements.item(j).type.toLowerCase() == "hidden" && formulario.elements.item(j).name.toLowerCase() == "a") {
+            if (formulario.elements.item(j).type.toLowerCase() == "hidden" && formulario.elements.item(j).name.toLowerCase() == "id_afiliado_eduzz_032021") {
                 skipThis = true;
                 break;
             }
