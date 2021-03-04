@@ -22,7 +22,7 @@ function a2forms() {
         if(!skipThis) {
             var input = document.createElement("input");
             input.setAttribute("type", "hidden");
-            input.setAttribute("name", "id_afiliado_eduzz");
+            input.setAttribute("name", "id_afiliado_eduzz_032021");
             input.setAttribute("value", findGetParameter("a"));
             formulario.appendChild(input);
         }             
