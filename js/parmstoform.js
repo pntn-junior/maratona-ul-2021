@@ -32,6 +32,6 @@ function a2forms() {
                                     a2forms();
                                 }, 3000);
 }
-if(findGetParameter("utm_source")!="") {
+if(findGetParameter("a")!="") {
     a2forms();    
 }
